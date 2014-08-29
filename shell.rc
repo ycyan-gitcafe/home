@@ -1,19 +1,12 @@
+# JAVA
 export JAVA_HOME=`/usr/libexec/java_home -v 1.7`
+
+# rbenv
 export RBENV_ROOT=/usr/local/var/rbenv
 
 PATH=/usr/local/sbin:/usr/local/bin:$PATH
 
-# need link git-completion (brew's git dir) to bash_completion
-if [ -f $(brew --prefix)/etc/bash_completion ]; then
-  . $(brew --prefix)/etc/bash_completion
-fi
-
-# rbenv
-if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
-
 export EDITOR=vim
 
+alias ls='ls -G'
 alias ll='ls -l'
-
-alias brspec='bundle exec rspec'
-alias be='bundle exec '

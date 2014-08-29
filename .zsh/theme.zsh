@@ -132,7 +132,7 @@ function setprompt {
     # Finally, the prompt.
 
     PROMPT_LINE1="$PR_SET_CHARSET$PR_STITLE${(e)PR_TITLEBAR}%{$fg[cyan]%}%n%{$fg[magenta]%}@%{$fg[blue]%}%M %{$fg[green]%}%~ %{$reset_color%}\$(git_prompt_info)"
-    PROMPT_LINE2="%{$fg[red]%}%#%{$reset_color%} YUKI.N> "
+    PROMPT_LINE2="%{$fg[red]%}%#%{$reset_color%} "
     PROMPT="$PROMPT_LINE1
 $PROMPT_LINE2"
 }

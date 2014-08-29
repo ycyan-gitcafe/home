@@ -14,8 +14,8 @@
 [difftool]
 	prompt = false
 [user]
-	name = Rainux Luo
-	email = rainux@gmail.com
+	name = upsilon2gamma
+	email = upsilon2gamma@gmail.com
 [merge]
 	summary = true
 	tool	= gvimdiff

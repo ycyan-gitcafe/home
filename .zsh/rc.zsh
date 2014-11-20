@@ -74,6 +74,7 @@ zstyle ':completion:*:warnings' format $'\e[01;31m -- No Matches Found --\e[0m'
 # Import .my_bashrc
 #[ -f ~/.my_bashrc ] && . ~/.my_bashrc
 [ -f ~/.shellrc ] && . ~/.shellrc
+[ -f ~/.localrc ] && . ~/.localrc
 
 # 路径别名 进入相应的路径时只要 cd ~xxx
 hash -d VHOST="/var/www/vhosts"

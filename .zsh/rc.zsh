@@ -71,11 +71,6 @@ zstyle ':completion:*:descriptions' format $'\e[01;33m -- %d --\e[0m'
 zstyle ':completion:*:messages' format $'\e[01;35m -- %d --\e[0m'
 zstyle ':completion:*:warnings' format $'\e[01;31m -- No Matches Found --\e[0m'
 
-# Import .my_bashrc
-#[ -f ~/.my_bashrc ] && . ~/.my_bashrc
-[ -f ~/.shellrc ] && . ~/.shellrc
-[ -f ~/.localrc ] && . ~/.localrc
-
 # 路径别名 进入相应的路径时只要 cd ~xxx
 hash -d VHOST="/var/www/vhosts"
 
